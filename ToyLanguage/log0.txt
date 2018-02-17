@@ -1,0 +1,406 @@
+ID: 1
+Execution stack: 
+openRFile(var_f)
+(readFile(var_f,var_c);(Print(var_c);(If var_c then (readFile(var_f,var_c);Print(var_c)) , else Print(0);closeRFile(var_f))))
+
+Table of symbols:
+
+Output:
+
+File table:
+
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+openRFile(var_f)
+(readFile(var_f,var_c);(Print(var_c);(If var_c then (readFile(var_f,var_c);Print(var_c)) , else Print(0);closeRFile(var_f))))
+
+Table of symbols:
+
+Output:
+
+File table:
+
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+(readFile(var_f,var_c);(Print(var_c);(If var_c then (readFile(var_f,var_c);Print(var_c)) , else Print(0);closeRFile(var_f))))
+
+Table of symbols:
+var_f --> 0
+
+Output:
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+(readFile(var_f,var_c);(Print(var_c);(If var_c then (readFile(var_f,var_c);Print(var_c)) , else Print(0);closeRFile(var_f))))
+
+Table of symbols:
+var_f --> 0
+
+Output:
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+readFile(var_f,var_c)
+(Print(var_c);(If var_c then (readFile(var_f,var_c);Print(var_c)) , else Print(0);closeRFile(var_f)))
+
+Table of symbols:
+var_f --> 0
+
+Output:
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+readFile(var_f,var_c)
+(Print(var_c);(If var_c then (readFile(var_f,var_c);Print(var_c)) , else Print(0);closeRFile(var_f)))
+
+Table of symbols:
+var_f --> 0
+
+Output:
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+(Print(var_c);(If var_c then (readFile(var_f,var_c);Print(var_c)) , else Print(0);closeRFile(var_f)))
+
+Table of symbols:
+var_f --> 0
+var_c --> 15
+
+Output:
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+(Print(var_c);(If var_c then (readFile(var_f,var_c);Print(var_c)) , else Print(0);closeRFile(var_f)))
+
+Table of symbols:
+var_f --> 0
+var_c --> 15
+
+Output:
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+Print(var_c)
+(If var_c then (readFile(var_f,var_c);Print(var_c)) , else Print(0);closeRFile(var_f))
+
+Table of symbols:
+var_f --> 0
+var_c --> 15
+
+Output:
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+Print(var_c)
+(If var_c then (readFile(var_f,var_c);Print(var_c)) , else Print(0);closeRFile(var_f))
+
+Table of symbols:
+var_f --> 0
+var_c --> 15
+
+Output:
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+(If var_c then (readFile(var_f,var_c);Print(var_c)) , else Print(0);closeRFile(var_f))
+
+Table of symbols:
+var_f --> 0
+var_c --> 15
+
+Output:
+15
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+(If var_c then (readFile(var_f,var_c);Print(var_c)) , else Print(0);closeRFile(var_f))
+
+Table of symbols:
+var_f --> 0
+var_c --> 15
+
+Output:
+15
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+If var_c then (readFile(var_f,var_c);Print(var_c)) , else Print(0)
+closeRFile(var_f)
+
+Table of symbols:
+var_f --> 0
+var_c --> 15
+
+Output:
+15
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+If var_c then (readFile(var_f,var_c);Print(var_c)) , else Print(0)
+closeRFile(var_f)
+
+Table of symbols:
+var_f --> 0
+var_c --> 15
+
+Output:
+15
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+(readFile(var_f,var_c);Print(var_c))
+closeRFile(var_f)
+
+Table of symbols:
+var_f --> 0
+var_c --> 15
+
+Output:
+15
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+(readFile(var_f,var_c);Print(var_c))
+closeRFile(var_f)
+
+Table of symbols:
+var_f --> 0
+var_c --> 15
+
+Output:
+15
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+readFile(var_f,var_c)
+Print(var_c)
+closeRFile(var_f)
+
+Table of symbols:
+var_f --> 0
+var_c --> 15
+
+Output:
+15
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+readFile(var_f,var_c)
+Print(var_c)
+closeRFile(var_f)
+
+Table of symbols:
+var_f --> 0
+var_c --> 15
+
+Output:
+15
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+Print(var_c)
+closeRFile(var_f)
+
+Table of symbols:
+var_f --> 0
+var_c --> 50
+
+Output:
+15
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+Print(var_c)
+closeRFile(var_f)
+
+Table of symbols:
+var_f --> 0
+var_c --> 50
+
+Output:
+15
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+closeRFile(var_f)
+
+Table of symbols:
+var_f --> 0
+var_c --> 50
+
+Output:
+15
+50
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+closeRFile(var_f)
+
+Table of symbols:
+var_f --> 0
+var_c --> 50
+
+Output:
+15
+50
+
+File table:
+0 --> test.in
+Heap:
+
+Next step:
+
+ID:1
+Execution stack: 
+
+Table of symbols:
+var_c --> 50
+
+Output:
+15
+50
+
+File table:
+
+Heap:
+
+Done
+
+ID:1
+Execution stack: 
+
+Table of symbols:
+var_c --> 50
+
+Output:
+15
+50
+
+File table:
+
+Heap:
+
+Done
+

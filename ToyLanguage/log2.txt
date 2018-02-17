@@ -1,0 +1,758 @@
+ID: 1
+Execution stack: 
+v=10
+(new(a,22);(fork((wH(a,30);(v=32;(Print(v);Print(rH(a))))));(Print(v);Print(rH(a)))))
+
+Table of symbols:
+
+Output:
+
+File table:
+
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+v=10
+(new(a,22);(fork((wH(a,30);(v=32;(Print(v);Print(rH(a))))));(Print(v);Print(rH(a)))))
+
+Table of symbols:
+
+Output:
+
+File table:
+
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+(new(a,22);(fork((wH(a,30);(v=32;(Print(v);Print(rH(a))))));(Print(v);Print(rH(a)))))
+
+Table of symbols:
+v --> 10
+
+Output:
+
+File table:
+
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+(new(a,22);(fork((wH(a,30);(v=32;(Print(v);Print(rH(a))))));(Print(v);Print(rH(a)))))
+
+Table of symbols:
+v --> 10
+
+Output:
+
+File table:
+
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+new(a,22)
+(fork((wH(a,30);(v=32;(Print(v);Print(rH(a))))));(Print(v);Print(rH(a))))
+
+Table of symbols:
+v --> 10
+
+Output:
+
+File table:
+
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+new(a,22)
+(fork((wH(a,30);(v=32;(Print(v);Print(rH(a))))));(Print(v);Print(rH(a))))
+
+Table of symbols:
+v --> 10
+
+Output:
+
+File table:
+
+Heap:
+
+Next step:
+
+ID: 1
+Execution stack: 
+(fork((wH(a,30);(v=32;(Print(v);Print(rH(a))))));(Print(v);Print(rH(a))))
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+
+File table:
+
+Heap:
+1-->22
+
+Next step:
+
+ID: 1
+Execution stack: 
+(fork((wH(a,30);(v=32;(Print(v);Print(rH(a))))));(Print(v);Print(rH(a))))
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+
+File table:
+
+Heap:
+1-->22
+
+Next step:
+
+ID: 1
+Execution stack: 
+fork((wH(a,30);(v=32;(Print(v);Print(rH(a))))))
+(Print(v);Print(rH(a)))
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+
+File table:
+
+Heap:
+1-->22
+
+Next step:
+
+ID: 1
+Execution stack: 
+fork((wH(a,30);(v=32;(Print(v);Print(rH(a))))))
+(Print(v);Print(rH(a)))
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+
+File table:
+
+Heap:
+1-->22
+
+Next step:
+
+ID: 1
+Execution stack: 
+(Print(v);Print(rH(a)))
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+
+File table:
+
+Heap:
+1-->22
+
+Next step:
+
+ID: 10
+Execution stack: 
+(wH(a,30);(v=32;(Print(v);Print(rH(a)))))
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+
+File table:
+
+Heap:
+1-->22
+
+Next step:
+
+ID: 1
+Execution stack: 
+(Print(v);Print(rH(a)))
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+
+File table:
+
+Heap:
+1-->22
+
+Next step:
+
+ID: 10
+Execution stack: 
+(wH(a,30);(v=32;(Print(v);Print(rH(a)))))
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+
+File table:
+
+Heap:
+1-->22
+
+Next step:
+
+ID: 1
+Execution stack: 
+Print(v)
+Print(rH(a))
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+
+File table:
+
+Heap:
+1-->22
+
+Next step:
+
+ID: 10
+Execution stack: 
+wH(a,30)
+(v=32;(Print(v);Print(rH(a))))
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+
+File table:
+
+Heap:
+1-->22
+
+Next step:
+
+ID: 1
+Execution stack: 
+Print(v)
+Print(rH(a))
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+
+File table:
+
+Heap:
+1-->22
+
+Next step:
+
+ID: 10
+Execution stack: 
+wH(a,30)
+(v=32;(Print(v);Print(rH(a))))
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+
+File table:
+
+Heap:
+1-->22
+
+Next step:
+
+ID: 1
+Execution stack: 
+Print(rH(a))
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+10
+
+File table:
+
+Heap:
+1-->30
+
+Next step:
+
+ID: 10
+Execution stack: 
+(v=32;(Print(v);Print(rH(a))))
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+10
+
+File table:
+
+Heap:
+1-->30
+
+Next step:
+
+ID: 1
+Execution stack: 
+Print(rH(a))
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+10
+
+File table:
+
+Heap:
+1-->30
+
+Next step:
+
+ID: 10
+Execution stack: 
+(v=32;(Print(v);Print(rH(a))))
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+10
+
+File table:
+
+Heap:
+1-->30
+
+Next step:
+
+ID:1
+Execution stack: 
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+10
+30
+
+File table:
+
+Heap:
+1-->30
+
+Done
+
+ID: 10
+Execution stack: 
+v=32
+(Print(v);Print(rH(a)))
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+10
+30
+
+File table:
+
+Heap:
+1-->30
+
+Next step:
+
+ID:1
+Execution stack: 
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+10
+30
+
+File table:
+
+Heap:
+1-->30
+
+Done
+
+ID: 10
+Execution stack: 
+v=32
+(Print(v);Print(rH(a)))
+
+Table of symbols:
+a --> 1
+v --> 10
+
+Output:
+10
+30
+
+File table:
+
+Heap:
+1-->30
+
+Next step:
+
+ID:1
+Execution stack: 
+
+Table of symbols:
+a --> 1
+v --> 32
+
+Output:
+10
+30
+
+File table:
+
+Heap:
+1-->30
+
+Done
+
+ID: 10
+Execution stack: 
+(Print(v);Print(rH(a)))
+
+Table of symbols:
+a --> 1
+v --> 32
+
+Output:
+10
+30
+
+File table:
+
+Heap:
+1-->30
+
+Next step:
+
+ID:1
+Execution stack: 
+
+Table of symbols:
+a --> 1
+v --> 32
+
+Output:
+10
+30
+
+File table:
+
+Heap:
+1-->30
+
+Done
+
+ID: 10
+Execution stack: 
+(Print(v);Print(rH(a)))
+
+Table of symbols:
+a --> 1
+v --> 32
+
+Output:
+10
+30
+
+File table:
+
+Heap:
+1-->30
+
+Next step:
+
+ID:1
+Execution stack: 
+
+Table of symbols:
+a --> 1
+v --> 32
+
+Output:
+10
+30
+
+File table:
+
+Heap:
+1-->30
+
+Done
+
+ID: 10
+Execution stack: 
+Print(v)
+Print(rH(a))
+
+Table of symbols:
+a --> 1
+v --> 32
+
+Output:
+10
+30
+
+File table:
+
+Heap:
+1-->30
+
+Next step:
+
+ID:1
+Execution stack: 
+
+Table of symbols:
+a --> 1
+v --> 32
+
+Output:
+10
+30
+
+File table:
+
+Heap:
+1-->30
+
+Done
+
+ID: 10
+Execution stack: 
+Print(v)
+Print(rH(a))
+
+Table of symbols:
+a --> 1
+v --> 32
+
+Output:
+10
+30
+
+File table:
+
+Heap:
+1-->30
+
+Next step:
+
+ID:1
+Execution stack: 
+
+Table of symbols:
+a --> 1
+v --> 32
+
+Output:
+10
+30
+32
+
+File table:
+
+Heap:
+1-->30
+
+Done
+
+ID: 10
+Execution stack: 
+Print(rH(a))
+
+Table of symbols:
+a --> 1
+v --> 32
+
+Output:
+10
+30
+32
+
+File table:
+
+Heap:
+1-->30
+
+Next step:
+
+ID:1
+Execution stack: 
+
+Table of symbols:
+a --> 1
+v --> 32
+
+Output:
+10
+30
+32
+
+File table:
+
+Heap:
+1-->30
+
+Done
+
+ID: 10
+Execution stack: 
+Print(rH(a))
+
+Table of symbols:
+a --> 1
+v --> 32
+
+Output:
+10
+30
+32
+
+File table:
+
+Heap:
+1-->30
+
+Next step:
+
+ID:1
+Execution stack: 
+
+Table of symbols:
+a --> 1
+v --> 32
+
+Output:
+10
+30
+32
+30
+
+File table:
+
+Heap:
+1-->30
+
+Done
+
+ID:10
+Execution stack: 
+
+Table of symbols:
+a --> 1
+v --> 32
+
+Output:
+10
+30
+32
+30
+
+File table:
+
+Heap:
+1-->30
+
+Done
+
+ID:1
+Execution stack: 
+
+Table of symbols:
+a --> 1
+v --> 32
+
+Output:
+10
+30
+32
+30
+
+File table:
+
+Heap:
+1-->30
+
+Done
+
+ID:10
+Execution stack: 
+
+Table of symbols:
+a --> 1
+v --> 32
+
+Output:
+10
+30
+32
+30
+
+File table:
+
+Heap:
+1-->30
+
+Done
+
